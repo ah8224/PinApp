@@ -1,0 +1,40 @@
+.login-container {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(199, 221, 224);
+    width: 20vw;
+    height: fit-content;
+    position:absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    padding: 25px;
+    border: none;
+}
+AccountCircleIcon {
+    color: darkslategray;
+    font-size: medium;
+}
+.success {
+    color: green;
+    font-size: medium;
+    text-align: center;
+}
+.fail {
+    color: red;
+    font-size: medium;
+    text-align: center;
+}
+.cancel {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.cancel:hover {
+    color: red;
+}
